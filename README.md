@@ -27,7 +27,7 @@ workspace's inventory.   One way of adding the assistant is to search for it
 using the Maana Rank global search feature, and dragging the assistant from the
 search results onto the inventory panel. 
 
-![ready to import](https://github.com/maana-io/maana-measurement/blob/master/img/MakeNewService.png)
+![ready to import](https://github.com/maana-io/maana-measurement/blob/master/img/ready-to-import.png)
 
 Once the assistant has been added, select the workspace object in the inventory
 and then open the assistant.   Drag the maana-measurement.q-export.json file 
