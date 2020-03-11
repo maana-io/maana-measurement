@@ -2,6 +2,7 @@
   "version": 1,
   "id": "d29b2253-974d-4cc6-843f-fec3aa8eec00",
   "name": "Maana Measurement",
+  "description": "The maana-measurement service is a Maana Q workspace service for unambiguously representing different kinds of measurements.   It includes definitions of over 50 commonly used kinds of measurements drawn from multiple engineering and science disciplines",
   "kinds": [
     {
       "id": "maana-measurement/kinds/Information",
@@ -15,6 +16,7 @@
         {
           "id": "maana-measurement/kinds/Information/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -25,6 +27,7 @@
         {
           "id": "maana-measurement/kinds/Information/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -35,6 +38,7 @@
         {
           "id": "maana-measurement/kinds/Information/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -64,6 +68,7 @@
         {
           "id": "maana-measurement/kinds/InformationTransferRate/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -74,6 +79,7 @@
         {
           "id": "maana-measurement/kinds/InformationTransferRate/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -84,6 +90,7 @@
         {
           "id": "maana-measurement/kinds/InformationTransferRate/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -113,6 +120,7 @@
         {
           "id": "maana-measurement/kinds/SpecificHeatCapacity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -123,6 +131,7 @@
         {
           "id": "maana-measurement/kinds/SpecificHeatCapacity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -133,6 +142,7 @@
         {
           "id": "maana-measurement/kinds/SpecificHeatCapacity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -162,6 +172,7 @@
         {
           "id": "maana-measurement/kinds/ThermalConductivity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -172,6 +183,7 @@
         {
           "id": "maana-measurement/kinds/ThermalConductivity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -182,6 +194,7 @@
         {
           "id": "maana-measurement/kinds/ThermalConductivity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -211,6 +224,7 @@
         {
           "id": "maana-measurement/kinds/Wavelength/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -221,6 +235,7 @@
         {
           "id": "maana-measurement/kinds/Wavelength/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -231,6 +246,7 @@
         {
           "id": "maana-measurement/kinds/Wavelength/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -271,6 +287,7 @@
         {
           "id": "maana-measurement/kinds/Frequency/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -281,6 +298,7 @@
         {
           "id": "maana-measurement/kinds/Frequency/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -291,6 +309,7 @@
         {
           "id": "maana-measurement/kinds/Frequency/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -331,6 +350,7 @@
         {
           "id": "maana-measurement/kinds/Velocity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -341,6 +361,7 @@
         {
           "id": "maana-measurement/kinds/Velocity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -351,6 +372,7 @@
         {
           "id": "maana-measurement/kinds/Velocity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -391,6 +413,7 @@
         {
           "id": "maana-measurement/kinds/Acceleration/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -401,6 +424,7 @@
         {
           "id": "maana-measurement/kinds/Acceleration/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -411,6 +435,7 @@
         {
           "id": "maana-measurement/kinds/Acceleration/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -451,6 +476,7 @@
         {
           "id": "maana-measurement/kinds/Length/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -461,6 +487,7 @@
         {
           "id": "maana-measurement/kinds/Length/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -471,6 +498,7 @@
         {
           "id": "maana-measurement/kinds/Length/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -526,6 +554,7 @@
         {
           "id": "maana-measurement/kinds/Duration/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -536,6 +565,7 @@
         {
           "id": "maana-measurement/kinds/Duration/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -546,6 +576,7 @@
         {
           "id": "maana-measurement/kinds/Duration/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -601,6 +632,7 @@
         {
           "id": "maana-measurement/kinds/Volume/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -611,6 +643,7 @@
         {
           "id": "maana-measurement/kinds/Volume/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -621,6 +654,7 @@
         {
           "id": "maana-measurement/kinds/Volume/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -676,6 +710,7 @@
         {
           "id": "maana-measurement/kinds/MassFlowRate/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -686,6 +721,7 @@
         {
           "id": "maana-measurement/kinds/MassFlowRate/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -696,6 +732,7 @@
         {
           "id": "maana-measurement/kinds/MassFlowRate/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -741,6 +778,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCurrent/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -751,6 +789,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCurrent/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -761,6 +800,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCurrent/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -790,6 +830,7 @@
         {
           "id": "maana-measurement/kinds/LuminousIntensity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -800,6 +841,7 @@
         {
           "id": "maana-measurement/kinds/LuminousIntensity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -810,6 +852,7 @@
         {
           "id": "maana-measurement/kinds/LuminousIntensity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -839,6 +882,7 @@
         {
           "id": "maana-measurement/kinds/Pressure/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -849,6 +893,7 @@
         {
           "id": "maana-measurement/kinds/Pressure/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -859,6 +904,7 @@
         {
           "id": "maana-measurement/kinds/Pressure/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -888,6 +934,7 @@
         {
           "id": "maana-measurement/kinds/MassConcentration/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -898,6 +945,7 @@
         {
           "id": "maana-measurement/kinds/MassConcentration/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -908,6 +956,7 @@
         {
           "id": "maana-measurement/kinds/MassConcentration/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -937,6 +986,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCharge/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -947,6 +997,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCharge/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -957,6 +1008,7 @@
         {
           "id": "maana-measurement/kinds/ElectricCharge/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -986,6 +1038,7 @@
         {
           "id": "maana-measurement/kinds/Inductance/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -996,6 +1049,7 @@
         {
           "id": "maana-measurement/kinds/Inductance/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1006,6 +1060,7 @@
         {
           "id": "maana-measurement/kinds/Inductance/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1035,6 +1090,7 @@
         {
           "id": "maana-measurement/kinds/MolarConcentration/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1045,6 +1101,7 @@
         {
           "id": "maana-measurement/kinds/MolarConcentration/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1055,6 +1112,7 @@
         {
           "id": "maana-measurement/kinds/MolarConcentration/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1084,6 +1142,7 @@
         {
           "id": "maana-measurement/kinds/Energy/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1094,6 +1153,7 @@
         {
           "id": "maana-measurement/kinds/Energy/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1104,6 +1164,7 @@
         {
           "id": "maana-measurement/kinds/Energy/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1132,6 +1193,7 @@
         {
           "id": "maana-measurement/kinds/Work/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1142,6 +1204,7 @@
         {
           "id": "maana-measurement/kinds/Work/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1152,6 +1215,7 @@
         {
           "id": "maana-measurement/kinds/Work/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1181,6 +1245,7 @@
         {
           "id": "maana-measurement/kinds/Entropy/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1191,6 +1256,7 @@
         {
           "id": "maana-measurement/kinds/Entropy/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1201,6 +1267,7 @@
         {
           "id": "maana-measurement/kinds/Entropy/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1230,6 +1297,7 @@
         {
           "id": "maana-measurement/kinds/Momentum/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1240,6 +1308,7 @@
         {
           "id": "maana-measurement/kinds/Momentum/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1250,6 +1319,7 @@
         {
           "id": "maana-measurement/kinds/Momentum/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1279,6 +1349,7 @@
         {
           "id": "maana-measurement/kinds/Voltage/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1289,6 +1360,7 @@
         {
           "id": "maana-measurement/kinds/Voltage/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1299,6 +1371,7 @@
         {
           "id": "maana-measurement/kinds/Voltage/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1328,6 +1401,7 @@
         {
           "id": "maana-measurement/kinds/AmountOfSubstance/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1338,6 +1412,7 @@
         {
           "id": "maana-measurement/kinds/AmountOfSubstance/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1348,6 +1423,7 @@
         {
           "id": "maana-measurement/kinds/AmountOfSubstance/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1377,6 +1453,7 @@
         {
           "id": "maana-measurement/kinds/KinematicViscosity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1387,6 +1464,7 @@
         {
           "id": "maana-measurement/kinds/KinematicViscosity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1397,6 +1475,7 @@
         {
           "id": "maana-measurement/kinds/KinematicViscosity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1426,6 +1505,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlowRate/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1436,6 +1516,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlowRate/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1446,6 +1527,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlowRate/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1475,6 +1557,7 @@
         {
           "id": "maana-measurement/kinds/Weight/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1485,6 +1568,7 @@
         {
           "id": "maana-measurement/kinds/Weight/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1495,6 +1579,7 @@
         {
           "id": "maana-measurement/kinds/Weight/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1524,6 +1609,7 @@
         {
           "id": "maana-measurement/kinds/OutsideDiameter/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1534,6 +1620,7 @@
         {
           "id": "maana-measurement/kinds/OutsideDiameter/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1544,6 +1631,7 @@
         {
           "id": "maana-measurement/kinds/OutsideDiameter/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1573,6 +1661,7 @@
         {
           "id": "maana-measurement/kinds/Dimensionless/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1583,6 +1672,7 @@
         {
           "id": "maana-measurement/kinds/Dimensionless/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1593,6 +1683,7 @@
         {
           "id": "maana-measurement/kinds/Dimensionless/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1622,6 +1713,7 @@
         {
           "id": "maana-measurement/kinds/Diameter/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1632,6 +1724,7 @@
         {
           "id": "maana-measurement/kinds/Diameter/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1642,6 +1735,7 @@
         {
           "id": "maana-measurement/kinds/Diameter/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1671,6 +1765,7 @@
         {
           "id": "maana-measurement/kinds/MassFlux/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1681,6 +1776,7 @@
         {
           "id": "maana-measurement/kinds/MassFlux/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1691,6 +1787,7 @@
         {
           "id": "maana-measurement/kinds/MassFlux/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1720,6 +1817,7 @@
         {
           "id": "maana-measurement/kinds/Heat/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1730,6 +1828,7 @@
         {
           "id": "maana-measurement/kinds/Heat/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1740,6 +1839,7 @@
         {
           "id": "maana-measurement/kinds/Heat/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1769,6 +1869,7 @@
         {
           "id": "maana-measurement/kinds/VolumetricFlowRate/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1779,6 +1880,7 @@
         {
           "id": "maana-measurement/kinds/VolumetricFlowRate/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1789,6 +1891,7 @@
         {
           "id": "maana-measurement/kinds/VolumetricFlowRate/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1818,6 +1921,7 @@
         {
           "id": "maana-measurement/kinds/DynamicViscosity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1828,6 +1932,7 @@
         {
           "id": "maana-measurement/kinds/DynamicViscosity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1838,6 +1943,7 @@
         {
           "id": "maana-measurement/kinds/DynamicViscosity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1867,6 +1973,7 @@
         {
           "id": "maana-measurement/kinds/Power/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1877,6 +1984,7 @@
         {
           "id": "maana-measurement/kinds/Power/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1887,6 +1995,7 @@
         {
           "id": "maana-measurement/kinds/Power/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1916,6 +2025,7 @@
         {
           "id": "maana-measurement/kinds/Temperature/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1926,6 +2036,7 @@
         {
           "id": "maana-measurement/kinds/Temperature/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1936,6 +2047,7 @@
         {
           "id": "maana-measurement/kinds/Temperature/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -1965,6 +2077,7 @@
         {
           "id": "maana-measurement/kinds/Diffusivity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -1975,6 +2088,7 @@
         {
           "id": "maana-measurement/kinds/Diffusivity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -1985,6 +2099,7 @@
         {
           "id": "maana-measurement/kinds/Diffusivity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -2014,6 +2129,7 @@
         {
           "id": "maana-measurement/kinds/ThermalDiffusivity/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -2024,6 +2140,7 @@
         {
           "id": "maana-measurement/kinds/ThermalDiffusivity/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -2034,6 +2151,7 @@
         {
           "id": "maana-measurement/kinds/ThermalDiffusivity/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -2063,6 +2181,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlux/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -2073,6 +2192,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlux/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -2083,6 +2203,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlux/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -2112,6 +2233,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlowRate/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -2122,6 +2244,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlowRate/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -2132,6 +2255,7 @@
         {
           "id": "maana-measurement/kinds/HeatFlowRate/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -2161,6 +2285,7 @@
         {
           "id": "maana-measurement/kinds/Capacitance/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -2171,6 +2296,7 @@
         {
           "id": "maana-measurement/kinds/Capacitance/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -2181,6 +2307,7 @@
         {
           "id": "maana-measurement/kinds/Capacitance/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -2209,6 +2336,7 @@
         {
           "id": "maana-measurement/kinds/UnitOfMeasure",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3129,6 +3257,7 @@
         {
           "id": "maana-measurement/kinds/Width/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3139,6 +3268,7 @@
         {
           "id": "maana-measurement/kinds/Width/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3149,6 +3279,7 @@
         {
           "id": "maana-measurement/kinds/Width/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3178,6 +3309,7 @@
         {
           "id": "maana-measurement/kinds/ElectricResistance/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3188,6 +3320,7 @@
         {
           "id": "maana-measurement/kinds/ElectricResistance/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3198,6 +3331,7 @@
         {
           "id": "maana-measurement/kinds/ElectricResistance/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3227,6 +3361,7 @@
         {
           "id": "maana-measurement/kinds/ElectricalConductance/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3237,6 +3372,7 @@
         {
           "id": "maana-measurement/kinds/ElectricalConductance/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3247,6 +3383,7 @@
         {
           "id": "maana-measurement/kinds/ElectricalConductance/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3276,6 +3413,7 @@
         {
           "id": "maana-measurement/kinds/Permeability/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3286,6 +3424,7 @@
         {
           "id": "maana-measurement/kinds/Permeability/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3296,6 +3435,7 @@
         {
           "id": "maana-measurement/kinds/Permeability/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3325,6 +3465,7 @@
         {
           "id": "maana-measurement/kinds/Force/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3335,6 +3476,7 @@
         {
           "id": "maana-measurement/kinds/Force/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3345,6 +3487,7 @@
         {
           "id": "maana-measurement/kinds/Force/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3374,6 +3517,7 @@
         {
           "id": "maana-measurement/kinds/Inertia/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3384,6 +3528,7 @@
         {
           "id": "maana-measurement/kinds/Inertia/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3394,6 +3539,7 @@
         {
           "id": "maana-measurement/kinds/Inertia/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3423,6 +3569,7 @@
         {
           "id": "maana-measurement/kinds/Height/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3433,6 +3580,7 @@
         {
           "id": "maana-measurement/kinds/Height/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3443,6 +3591,7 @@
         {
           "id": "maana-measurement/kinds/Height/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3472,6 +3621,7 @@
         {
           "id": "maana-measurement/kinds/Mass/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3482,6 +3632,7 @@
         {
           "id": "maana-measurement/kinds/Mass/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3492,6 +3643,7 @@
         {
           "id": "maana-measurement/kinds/Mass/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3521,6 +3673,7 @@
         {
           "id": "maana-measurement/kinds/Area/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3531,6 +3684,7 @@
         {
           "id": "maana-measurement/kinds/Area/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3541,6 +3695,7 @@
         {
           "id": "maana-measurement/kinds/Area/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3570,6 +3725,7 @@
         {
           "id": "maana-measurement/kinds/Torque/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3580,6 +3736,7 @@
         {
           "id": "maana-measurement/kinds/Torque/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3590,6 +3747,7 @@
         {
           "id": "maana-measurement/kinds/Torque/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3619,6 +3777,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlux/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3629,6 +3788,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlux/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3639,6 +3799,7 @@
         {
           "id": "maana-measurement/kinds/MolarFlux/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3668,6 +3829,7 @@
         {
           "id": "maana-measurement/kinds/InsideDiameter/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3678,6 +3840,7 @@
         {
           "id": "maana-measurement/kinds/InsideDiameter/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3688,6 +3851,7 @@
         {
           "id": "maana-measurement/kinds/InsideDiameter/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
@@ -3717,6 +3881,7 @@
         {
           "id": "maana-measurement/kinds/FuelEfficiency/id",
           "name": "id",
+          "description": "A unique, human-readable identifier for the measurement.   Consider using the the normal form of the measurement (e.g. 'MAGNITUDE UNIT')",
           "type": "ID",
           "typeKindId": "",
           "modifiers": [
@@ -3727,6 +3892,7 @@
         {
           "id": "maana-measurement/kinds/FuelEfficiency/magnitude",
           "name": "magnitude",
+          "description": "The numeric value of the measurement.",
           "type": "FLOAT",
           "typeKindId": "",
           "modifiers": [
@@ -3737,6 +3903,7 @@
         {
           "id": "maana-measurement/kinds/FuelEfficiency/unitOfMeasure",
           "name": "unitOfMeasure",
+          "description": "The unit of measure in which the measurement was made.",
           "type": "KIND",
           "typeKindId": "maana-measurement/kinds/UnitOfMeasure",
           "modifiers": [
