@@ -50,8 +50,7 @@
           }
         }
       ],
-      "data": [
-      ]
+      "data": []
     },
     {
       "id": "maana-measurement/kinds/InformationTransferRate",
@@ -100,10 +99,8 @@
           }
         }
       ],
-      "data": [
-      ]
+      "data": []
     },
-
     {
       "id": "maana-measurement/kinds/SpecificHeatCapacity",
       "name": "SpecificHeatCapacity",
@@ -151,8 +148,7 @@
           }
         }
       ],
-      "data": [
-      ]
+      "data": []
     },
     {
       "id": "maana-measurement/kinds/ThermalConductivity",
@@ -201,8 +197,7 @@
           }
         }
       ],
-      "data": [
-      ]
+      "data": []
     },
     {
       "id": "maana-measurement/kinds/Wavelength",
@@ -2154,7 +2149,6 @@
       ],
       "data": []
     },
-    
     {
       "id": "maana-measurement/kinds/Capacitance",
       "name": "Capacitance",
@@ -2206,7 +2200,7 @@
     },
     {
       "id": "maana-measurement/kinds/UnitOfMeasure",
-        "name": "UnitOfMeasure",
+      "name": "UnitOfMeasure",
       "service": {
         "id": "maana-measurement",
         "name": "Maana Measurement"
@@ -2295,7 +2289,8 @@
         },
         {
           "id": "ton"
-        },        {
+        },
+        {
           "id": "lbm"
         },
         {
@@ -2388,7 +2383,6 @@
         {
           "id": "bbl"
         },
-  
         {
           "id": "m/s"
         },
@@ -2458,7 +2452,6 @@
         {
           "id": "bbl/s"
         },
-
         {
           "id": "m/min"
         },
@@ -2678,7 +2671,6 @@
         {
           "id": "bbl/day"
         },
-
         {
           "id": "V"
         },
@@ -2688,7 +2680,6 @@
         {
           "id": "kV"
         },
-
         {
           "id": "bar"
         },
@@ -2713,9 +2704,15 @@
         {
           "id": "kg/m³"
         },
-        { "id": "g/cm³"},
-        { "id": "lbm/in³"},
-        { "id": "lbm/ft³"},
+        {
+          "id": "g/cm³"
+        },
+        {
+          "id": "lbm/in³"
+        },
+        {
+          "id": "lbm/ft³"
+        },
         {
           "id": "BOE"
         },
@@ -2848,12 +2845,24 @@
         {
           "id": "A⋅s"
         },
-        { "id": "N⋅m"},
-        { "id": "N⋅cm"},
-        { "id": "kN⋅m"},
-        { "id": "ft⋅lb"},
-        { "id": "in⋅lb"},
-        { "id": "BTU/hr"},
+        {
+          "id": "N⋅m"
+        },
+        {
+          "id": "N⋅cm"
+        },
+        {
+          "id": "kN⋅m"
+        },
+        {
+          "id": "ft⋅lb"
+        },
+        {
+          "id": "in⋅lb"
+        },
+        {
+          "id": "BTU/hr"
+        },
         {
           "id": "W"
         },
@@ -2887,9 +2896,15 @@
         {
           "id": "μS"
         },
-        { "id": "℧" },
-        { "id": "m℧" },
-        { "id": "μ℧" },
+        {
+          "id": "℧"
+        },
+        {
+          "id": "m℧"
+        },
+        {
+          "id": "μ℧"
+        },
         {
           "id": "mH"
         },
@@ -2902,7 +2917,9 @@
         {
           "id": "Pa"
         },
-        { "id:": "N/m²" },
+        {
+          "id": "N/m²"
+        },
         {
           "id": "lb/in²"
         },
@@ -2927,13 +2944,27 @@
         {
           "id": "ft·s"
         },
-        { "id": "1/m²"},
-        { "id": "mi/gal"},
-        { "id": "km/l"},
-        { "id": "km/m³"},
-        { "id": "kg⋅m²" },
-        { "id": "g⋅cm²" },
-        { "id": "lbm⋅ft²" },
+        {
+          "id": "1/m²"
+        },
+        {
+          "id": "mi/gal"
+        },
+        {
+          "id": "km/l"
+        },
+        {
+          "id": "km/m³"
+        },
+        {
+          "id": "kg⋅m²"
+        },
+        {
+          "id": "g⋅cm²"
+        },
+        {
+          "id": "lbm⋅ft²"
+        },
         {
           "id": "g/cm²⋅s"
         },
@@ -2946,15 +2977,33 @@
         {
           "id": "lbm/in²⋅s"
         },
-        { "id": "kmol/m²s"},
-        { "id": "mol/m²s"},
-        { "id": "mol/cm²s"},
-        { "id": "mmol/cm²s"},
-        { "id": "kg⋅m/s" },
-        { "id": "g⋅cm/s" },
-        { "id": "lbm⋅ft/s" },
-        { "id": "lbm⋅in/s" },
-        { "id": "BTU/°F/lbm"},
+        {
+          "id": "kmol/m²s"
+        },
+        {
+          "id": "mol/m²s"
+        },
+        {
+          "id": "mol/cm²s"
+        },
+        {
+          "id": "mmol/cm²s"
+        },
+        {
+          "id": "kg⋅m/s"
+        },
+        {
+          "id": "g⋅cm/s"
+        },
+        {
+          "id": "lbm⋅ft/s"
+        },
+        {
+          "id": "lbm⋅in/s"
+        },
+        {
+          "id": "BTU/°F/lbm"
+        },
         {
           "id": "F"
         },
@@ -2970,7 +3019,6 @@
         {
           "id": "pF"
         },
-
         {
           "id": "B"
         },
@@ -3010,30 +3058,63 @@
         {
           "id": "T"
         },
-        { "id": "W/m⋅K" },
-        { "id": "W/cm⋅K" },
-        { "id": "W/m⋅°C" },
-        { "id": "W/cm⋅°C" },
-        { "id": "BTU/hr⋅ft⋅°F" },
-        { "id": "J/kg⋅K" },
-        { "id": "J/kg⋅°C" },
-        { "id": "cal/g⋅K" },
-        { "id": "Cal/g⋅K" },
-        { "id": "kcal/g⋅K" },
-        { "id": "cal/g⋅°C" },
-        { "id": "Cal/g⋅°C" },
-        { "id": "kcal/g⋅°C" },
-        { "id": "W/m²" },
-        { "id": "kW/m²" },
-        { "id": "W/cm²" },
-        { "id": "BTU/hr⋅ft²"},
+        {
+          "id": "W/m⋅K"
+        },
+        {
+          "id": "W/cm⋅K"
+        },
+        {
+          "id": "W/m⋅°C"
+        },
+        {
+          "id": "W/cm⋅°C"
+        },
+        {
+          "id": "BTU/hr⋅ft⋅°F"
+        },
+        {
+          "id": "J/kg⋅K"
+        },
+        {
+          "id": "J/kg⋅°C"
+        },
+        {
+          "id": "cal/g⋅K"
+        },
+        {
+          "id": "Cal/g⋅K"
+        },
+        {
+          "id": "kcal/g⋅K"
+        },
+        {
+          "id": "cal/g⋅°C"
+        },
+        {
+          "id": "Cal/g⋅°C"
+        },
+        {
+          "id": "kcal/g⋅°C"
+        },
+        {
+          "id": "W/m²"
+        },
+        {
+          "id": "kW/m²"
+        },
+        {
+          "id": "W/cm²"
+        },
+        {
+          "id": "BTU/hr⋅ft²"
+        },
         {
           "id": "Wb"
         },
         {
           "id": "ppm"
         }
-
       ]
     },
     {
@@ -3578,7 +3659,7 @@
     {
       "id": "maana-measurement/kinds/InsideDiameter",
       "name": "InsideDiameter",
-      "description": "A measurement of the distance across the inside of a cylindrical shell.  Inside diameter is a specialization of length measurement.", 
+      "description": "A measurement of the distance across the inside of a cylindrical shell.  Inside diameter is a specialization of length measurement.",
       "service": {
         "id": "maana-measurement",
         "name": "Maana Measurement"
@@ -3676,8 +3757,7 @@
   ],
   "functions": [],
   "services": [],
-  "assistants": [
-  ],
+  "assistants": [],
   "lambda": [],
   "endpointServiceId": "maana-measurement",
   "currentSelection": {
@@ -4245,7 +4325,6 @@
             "isGenerated": false
           }
         }
-        
       ]
     },
     {
@@ -4255,111 +4334,111 @@
       "offsetY": 0,
       "zoom": 100,
       "nodes": [
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Node1",
-            "x": 64,
-            "y": 352,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Wavelength",
-              "name": "Wavelength",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Node2",
-            "x": 64,
-            "y": 32,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Frequency",
-              "name": "Frequency",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Velocity",
-            "x": 576,
-            "y": 32,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Velocity",
-              "name": "Velocity",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Power",
-            "x": 320,
-            "y": 32,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Power",
-              "name": "Power",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Energy",
-            "x": 64,
-            "y": 192,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Energy",
-              "name": "Energy",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/LuminousIntensity",
-            "x": 320,
-            "y": 192,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/LuminousIntensity",
-              "name": "LuminousIntensity",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
-          },
-          {
-            "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Duration",
-            "x": 576,
-            "y": 192,
-            "collapsed": false,
-            "kind": {
-              "id": "maana-measurement/kinds/Duration",
-              "name": "Duration",
-              "service": {
-                "id": "maana-measurement",
-                "name": "Maana Measurement"
-              },
-              "isGenerated": false
-            }
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Node1",
+          "x": 64,
+          "y": 352,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Wavelength",
+            "name": "Wavelength",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
           }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Node2",
+          "x": 64,
+          "y": 32,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Frequency",
+            "name": "Frequency",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Velocity",
+          "x": 576,
+          "y": 32,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Velocity",
+            "name": "Velocity",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Power",
+          "x": 320,
+          "y": 32,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Power",
+            "name": "Power",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Energy",
+          "x": 64,
+          "y": 192,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Energy",
+            "name": "Energy",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/LuminousIntensity",
+          "x": 320,
+          "y": 192,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/LuminousIntensity",
+            "name": "LuminousIntensity",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        },
+        {
+          "id": "maana-measurement/knowledge-graphs/Light-And-Sound/Duration",
+          "x": 576,
+          "y": 192,
+          "collapsed": false,
+          "kind": {
+            "id": "maana-measurement/kinds/Duration",
+            "name": "Duration",
+            "service": {
+              "id": "maana-measurement",
+              "name": "Maana Measurement"
+            },
+            "isGenerated": false
+          }
+        }
       ]
     },
     {
